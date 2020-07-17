@@ -1,0 +1,53 @@
+@keyframes changeShape{
+	from{
+		border-radius: 0%;
+	}
+	to{
+		border-radius: 50%;
+	}
+}
+@keyframes rotate{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+@keyframes size{
+		from{
+			height:200px;
+			width:200px;
+		
+	}
+	to{
+		
+		height:200px;
+		width: 200px;
+	}
+}
+
+div{
+	height: 200px;
+	width:200px;
+	position: absolute;
+	top: 40%;
+	left:40%;
+	background-color: aquamarine;
+	animation-name:changeShape,rotate,size;
+	animation-duration: 0.8s ,0.8s,0.8s;
+	animation-direction: alternate,alternate,alternate;
+	animation-iteration-count:infinite,infinite,infinite;
+	/* transform:rotate(120deg); */
+	/* transform: scale(1.5); */
+	/* animation:changeShape 1s ease-in-out infinite alternate; */
+
+}
+	/* transform: translate(200px,100px);  */
+	/* transform:skew(20deg); */
+	/* transition:height 1s ease-in-out 0.5s; */
+
+/* div:hover{
+	height:400px;
+	width: 400px;
+} */

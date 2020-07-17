@@ -1,0 +1,22 @@
+#outerdiv1{
+height: 200px;
+width: 200px;
+background-color: red;
+/*margin: 4px 10px 20px 30px;*/
+/*margin:auto;*/
+margin-bottom:20px;
+/*padding: 20px;*/
+/*padding-left:20px;*/
+padding:4px 10px 20px 30px;
+}
+#innerdiv1{
+	height: 50%;
+	width: 50%;
+	background-color: black;
+}
+#outerdiv2{
+height: 200px;
+width:200px;
+background-color: blue;
+margin-top: 10px;
+}

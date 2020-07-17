@@ -1,0 +1,60 @@
+@keyframes chanebox{
+	0%{
+		transform:rotate3d(0,0,0,0deg) translateX(0px) translateY(0px) translateZ(0px);
+
+	}
+	100%{
+		transform:rotate3d(1000,1000,1000,360deg) translateX(200px) translateY(150px) translateZ(300px);
+	}
+	
+
+} 
+.cube{
+	height:100px;
+	width: 100px;
+	position:relative;
+	margin:50px;
+	transform-style: preserve-3d;
+	perspective:5000px;
+	transform: rotateX(25deg) rotateY(-25deg);
+	animation-name:chanebox;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+
+}
+.face{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	left: 80%;
+	/* box-shadow:2px 2px 2px 2px white; */
+	border: 1px solid white;
+	/* transition:all 0.1s; */
+}
+.one{
+	background-color: green;
+
+
+}
+.two{
+background-color: orange;
+transform: rotateY(90deg) translateZ(-50px) translateX(-50px);
+}
+.three{
+	background-color: red;
+	transform: rotateY(-90deg) translateZ(-50px) translateX(50px);
+}
+.four{
+	background-color:black;
+	transform: rotateX(90deg) translateZ(50px) translateY(50px);
+}
+.five{
+	background-color:purple;
+	transform: translateZ(100px);
+}
+.six{
+	background-color:blue;
+	transform: rotateX(90deg) translateZ(-50px) translateX(-50px) translateX(50px) translateY(50px);
+}

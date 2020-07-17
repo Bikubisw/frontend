@@ -1,0 +1,16 @@
+#courses{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top:3%;
+	height:30vh;
+	width:100%;
+	background-color:aliceblue;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+#courses{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}

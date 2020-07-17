@@ -1,0 +1,40 @@
+#search-container{
+	height:20vh;
+	width: 100%;
+	background-image: linear-gradient(to right,#03a9f44f,#ffa5002b);
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+#options,#dog-sub-breeds{
+	height:40px;
+	width:300px;
+	font-size: 1.2rem;
+}
+#options option{
+	font-size: 1.2rem;
+    padding: 10px;
+}
+#get{
+	height:35px;
+	width:120px;
+	font-family: sans-serif;
+	font-size:0.8rem;
+	background-color:#d3d3d361;
+	font-weight:800;
+}
+#image-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+#image-container img{
+   max-height: 400px;
+    max-width: 100%;
+    min-height: 200px;
+    margin: 20px;
+
+}

@@ -1,0 +1,7 @@
+#div1{
+	display: flex;
+	height: 200px;
+	width:500px;
+	flex-basis: 250px;
+	background-color: red;
+}

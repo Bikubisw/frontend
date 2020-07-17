@@ -1,0 +1,54 @@
+#container{
+	height:500px;
+	width:500px;
+	background-color:lightgrey;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	align-items: flex-end;
+	/*align-items: center;*/
+	/*flex-start*/
+	/*flex-end*/
+	/*space around*/
+	/*space between*/
+	/*center*/
+	/*align-items:center;*/
+	/*flex-start*/
+	/*flex-end*/
+	/*center*/
+	/*baseline*/
+	/*stretch*/
+
+
+}
+#container div{
+	height:100px;
+	max-height: 400px;
+	width: 100px;
+	
+}
+#div1{
+	background-color: red;
+/*	flex-grow: 4;
+	flex-shrink: 4;*/
+	/*margin:10px;*/
+
+
+}
+#div2{
+background-color: green;
+/*flex-grow: 1;
+flex-shrink: 1;*/
+/*margin:20px;*/
+}
+#div3{
+	background-color: blue;
+	/*margin:50px;*/
+}/*
+#div4{
+background-color: black;
+}
+#div5{
+	background-color: orange;
+}*/

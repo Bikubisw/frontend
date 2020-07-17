@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button class="button">Click Me!</button>
+</body>
+<script>
+    const click = document.querySelector('.button');
+    click.addEventListener('click', function() {
+        let text = document.createElement('p')
+        text.textContent = "Im nitin chauhan!";
+        document.body.appendChild(text);
+        const remove = document.createElement('button');
+        remove.textContent = 'Start new game';
+        document.body.appendChild(remove);
+        remove.addEventListener('click', reset());
+        text.style.backgroundColor = 'cyan';
+        text.style.width = '300px';
+        text.style.height = '23vh';
+        text.style.border = '2px solid black';
+    });
+
+    function reset() {
+
+    }
+</script>
+</body>
+
+</html>

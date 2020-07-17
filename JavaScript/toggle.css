@@ -1,0 +1,23 @@
+#outer {
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    border-radius: 25px 25px;
+}
+
+#inner {
+    height: 100%;
+    width: 30px;
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.heading {
+    position: absolute;
+    left: 12%;
+    top: 25%;
+}

@@ -1,0 +1,13 @@
+#para{
+	font-size:30px;
+	color: red;
+	/*weight varies in number as well (100-900)*/
+	font-weight: 100;
+	text-align: justify;
+	line-height:50px;
+	/*word-spacing:10px;*/
+	text-transform: uppercase;
+	/*text-decoration:underline;*/
+	text-shadow:2px 2px;
+
+}

@@ -1,0 +1,18 @@
+#outer{
+height: 200px;
+width: 200px;
+background-color:purple;
+position:absolute;
+left:45%;
+top: 20%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+border-radius:100px;
+}
+#inner{
+height:80px;
+width: 80px;
+background-color:lightgrey;
+margin-left:30%;
+}

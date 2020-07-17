@@ -1,0 +1,21 @@
+@keyframes changeShape{
+	0%{
+		transform:translateY(80px);
+	}
+	50%{
+		transform: translateY(40px);
+	}
+	100%{
+
+	}
+	
+}
+div{
+	position: absolute;
+	top:40%;
+	left:40%;
+	height:200px;
+	width: 200px;
+	background-color:aquamarine;
+	animation:changeShape 0.4s ease-in-out 6 alternate;
+}
